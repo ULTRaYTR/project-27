@@ -19,11 +19,11 @@ function setup() {
 	world = engine.world;
 
 	roof1=new roof();
-	bob1 = new bob(300,300)
-	bob2 = new bob(350,300)
-	bob3 = new bob(400,300)
-	bob4 = new bob(450,300)
-	bob5 = new bob(500,300)
+	bob1 = new bob(300,300,50)
+	bob2 = new bob(350,300,50)
+	bob3 = new bob(400,300,50)
+	bob4 = new bob(450,300,50)
+	bob5 = new bob(500,300,50)
 
 	
 	rope1=new rope(bob1.body,   {x:300, y:100})
